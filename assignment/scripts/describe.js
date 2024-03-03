@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to Dane as a string.
+// We then create a if-else conditional statement.
+// If the variable 'name' equals the value and type for string 'Mary', then we console.log "Hi, Mary!"
+// Else if this is false, the variable 'name' does not equal string "Mary", then we console.log "How do you do?"
+// In summary, the variable 'name" does not equal to "Mary", so it will output "How do you do?"
 
 //CODE
 /*
@@ -45,10 +46,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called secret and it is not assigned a value yet. It's undefined.
+// We make a varaible called code and set it to 123 as a number
+// This line checks if the value of 'code' is equal to '123' in value and type. This condition is true.
+// Variable secret is now assigned the string value 'super' since the if statement above was true. 
+// 'code' is multipled by 2, so code is now assigned a value of 246 after the operation. 
+// The second if condition checks if updated value of 'code' which is now 246 is greater than 250. This is false.
+// We then console.log 'super'
 
 //CODE
 /*
@@ -70,10 +74,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Declare a variable called isStudent and assign it the value of true.
+// Declare a variable called age and assign it the value of a number 34.
+// Declare a variable called zip and assign it the value of a number 55407.
+// The code checks all the conditions of if, else if and else. 
+// It would then console.log "Welcome to Prime!" since this condition of isStudent is true, while all the above were false.  
 
 //CODE
 /*
@@ -130,12 +135,18 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne is set to red, but the instruction ask it to be 'blue'
+// Should be blue
 let colorOne = 'red';
+
+// FIX - colorTwo is set to blue, but the instruction ask it to be 'red'
+// Shoule be red
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  colorTwo = 'purple';
 }
 */
 
@@ -147,6 +158,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - The operator is incorrect and set to OR ||
+// Should be a AND operator &&. Replace the OR || operator with AND &&
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +173,9 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - if statement is setup as minAge less than or equal to age, but instruction said age is greater than or equal to minAge
+// Should be age >= minAge 
+// Then reverse the console.log 'enter' to be the if statement and 'no entry' to be in the else statement. It's correct logic.  
 if(minAge <= age) {
   console.log('no entry');
 } else {
